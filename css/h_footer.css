@@ -1,0 +1,445 @@
+/*
+* @Author: admin
+* @Date:   2018-09-06 13:46:01
+* @Last Modified by:   admin
+* @Last Modified time: 2018-09-17 21:34:32
+*/
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+}
+a{
+	text-decoration: none;
+}
+.dh{
+	width: 1200px;
+	margin: 5px auto;
+	height: 20px;
+}
+.dh ul{
+	position: relative;
+	
+}
+.dh ul li:before{
+	content: '';
+	width: 1px;
+	height: 8px;
+	display: inline-block;
+	background: #e4e4e4;
+	position: absolute;
+	top: 10px;
+
+}
+.dh ul li:nth-of-type(1):before{
+	display: none;
+}
+.dh ul li:nth-of-type(2):before{
+	
+	left: 41px;
+}
+.dh ul li:nth-of-type(3):before{
+	
+	left: 104px;
+}
+.dh ul li:nth-of-type(4):before{
+	
+	left: 168px;
+}
+.dh ul li:nth-of-type(5):before{
+	
+	left: 245px;
+}
+.dh ul li:nth-of-type(6):before{
+	
+	left: 310px;
+}
+.dh ul li:nth-of-type(7):before{
+	
+	left: 403px;
+}
+.dh ul li:nth-of-type(8):before{
+	
+	left: 458px;
+}
+.dh ul li:nth-of-type(9):before{
+
+	left: 552px;
+}
+.dh ul li:nth-of-type(10):before{
+	
+	right: 578px;
+}
+.dh ul li {
+	font-size: 12px;
+	font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+	float: left;
+	padding: 0px 8px;
+	line-height: 30px;
+	
+	
+}
+
+.dh ul li a{
+	color: #999999;
+}
+.dh ul li a:hover{
+	color: #c50205;
+}
+
+.border1 {
+	  border: 1px solid #ededed;
+	  border-bottom: none;
+	  box-shadow: 2px 0px 2px 2px rgba(255, 255, 255, 0.6);
+    
+}
+
+.ts>span{
+	display: inline-block;
+	width: 0px;
+	height: 0px;
+	position: relative;
+	border-left:4px solid transparent ;
+	border-right: 4px solid transparent;
+	border-top: 6px solid #999999;
+	margin-top: 2px;
+	position: absolute;
+	cursor: pointer;
+	left: 610px;
+	top: 8px;
+	
+}
+
+.ts .ts1{
+	left: 675px;
+}
+
+.ts div{
+	position: absolute;
+	width: 150px;
+	height: 150px;
+    top: 30px;
+    text-align: center;
+    border: 1px solid #ededed;
+    box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.2);
+   	display: none;
+
+}
+
+.ts .content1{
+	left: 466px;
+	background-color: #fff;
+	z-index: 50;
+	
+}
+.ts .content1 .zd{
+	display: inline-block;
+	width: 64px;
+	height: 2px;
+	background-color: #fff;
+	position: absolute;
+	top: -2px;
+	right: 0px;
+	
+}
+.ts .content1 img{
+	margin-top: 30px;
+}
+.ts .content2{
+	left: 530px;
+	background-color: #fff;
+	z-index: 50;
+	
+}
+.ts .content2 .zd{
+	display: inline-block;
+	width: 64px;
+	height: 2px;
+	background-color: #fff;
+	position: absolute;
+	top: -2px;
+	right: 0px;
+	
+}
+
+.dh .right{
+	float: right;
+	margin-right: 20px;
+	position: relative;
+}
+.dh .right li:before{
+	display: none;
+}
+.dh .right li:nth-of-type(2){
+	position: relative;
+}
+.dh .right li:nth-of-type(2):after{
+	content: '';
+	display: block;
+	width: 1px;
+	height: 8px;
+	position: absolute;
+	top: 10px;
+	left: 40px;
+	background-color: #999999;
+}
+.dh .right li:nth-of-type(3){
+	position: relative;
+}
+.dh .right li:nth-of-type(3):after{
+	content: '';
+	display: block;
+	width: 1px;
+	height: 8px;
+	position: absolute;
+	top: 10px;
+	left: 67px;
+	background-color: #999999;
+}
+
+.dh .right li:nth-of-type(4){
+	
+	
+	color: #999999;
+	cursor: pointer;
+	
+}
+
+.dh .right li .dyc{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background-image: url('../images/icon-common.png');
+	background-repeat: no-repeat;
+	background-position:0px 2px ;
+	cursor: pointer;
+	
+	margin-left: 10px;
+	margin-top: 2px;
+}
+.dh .right li .gwc:hover{
+	color:  #c50205;
+}
+.dh .right li .sl{
+	color: red;
+
+}
+.dh .content3{
+	width: 460px;
+	height: 230px;
+	position: absolute;
+	border: 1px solid #ededed;
+	text-align: center;
+	left: -187px;
+	top: 32px;
+	display: none;
+	box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.2);
+	background-color: #fff;
+	z-index: 50;
+}
+.dh .content3 .zd{
+	display: inline-block;
+	width: 117px;
+	height: 2px;
+	background-color: #fff;
+	position: absolute;
+	top: -2px;
+	right: 0px;
+	
+}
+.dh .content3 h4{
+	margin-top: 45px;
+}
+.dh .content3 p{
+	font-size: 16px;
+	cursor: pointer;
+}
+
+
+
+/* 尾部 */
+.slogan-container{
+	width: 100%;
+	background-color: #f0f0f0;
+}
+.slogan{
+	width: 1200px;
+	margin: 0px auto;
+	border-bottom: 2px solid #e8e8e8;
+	height: 140px;
+	line-height: 140px;
+}
+.slogan-container ul li{
+	float: left;
+	width: 300px;
+}
+.slogan-container ul li a{
+	line-height: 47px;
+	color: #3a3a3a;
+	font-size: 17px;
+}
+.slogan-container ul li span{
+	width: 47px;
+	height: 47px;
+	display: inline-block;
+	margin-right: 20px;
+	vertical-align: middle;
+}
+.slogan-container ul li:nth-of-type(1) span{
+	background-image: url('../images/icon-common.png');
+	background-position: 0px 85px;
+}
+.slogan-container ul li:nth-of-type(2) span{
+	background-image: url('../images/icon-common.png');
+	background-position: 106px 85px;
+}
+.slogan-container ul li:nth-of-type(3) span{
+	background-image: url('../images/icon-common.png');
+	background-position: 60px 85px;
+}
+.slogan-container ul li:nth-of-type(4) span{
+	background-image: url('../images/icon-common.png');
+	background-position: 154px 85px;
+}
+.service-container{
+	width: 100%;
+	background-color: #f0f0f0;
+	padding-top: 20px;
+	overflow: hidden;
+}
+.service{
+	width: 1200px;
+	margin: 0px auto;
+}
+.service .past{
+	float: left;
+	width: 157px;
+	overflow: hidden;
+}
+.past dd span{
+	display: inline-block;
+	width: 22px;
+	height: 2px;
+	background-color: #a8a8a8;
+}
+.past dd p{
+	line-height: 36px;
+	margin-bottom: 10px;
+}
+.past dt ul li a{
+	color: #666;
+	font-size: 12px;
+	line-height: 22px;
+}
+.past dt ul li a:hover{
+	color: #cf232a;
+}
+.past .list{
+	width: 1100px;
+	transition: 1s;
+}
+.past .list ul{
+	float: left;
+	width: 157px;
+}
+.past dd p>span{
+	width: 14px;
+	height: 14px;
+	display: inline-block;
+	background-color: #ccc;
+	vertical-align: middle;
+	border-radius: 3px;
+	color: #fff;
+	position: relative;
+	cursor: pointer;
+}
+.past dd p>span u{
+	position: absolute;
+	display: inline-block;
+	top: -12px;
+}
+.service .past-number{
+	width: 169px;
+	float: left;
+}
+.past-number dd span{
+	display: inline-block;
+	width: 22px;
+	height: 2px;
+	background-color: #a8a8a8;
+}
+.past-number dd p{
+	font-size: 24px;
+	line-height: 36px;
+	margin-bottom: 10px;
+}
+.past-number dt p{
+	font-size: 13px;
+	color: #666;
+	/* line-height: 36px */
+}
+.past-number dt div{
+	width: 163px;
+	line-height: 35px;
+	margin: 18px auto 0px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	padding-left: 30px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	font-size: 14px;
+	color: #900;
+}
+.past-number dt div>span{
+	display: block;
+	width: 22px;
+	height: 18px;
+	background: url('../images/icon-common.png');
+	background-position: -101px -22px;
+	float: left;
+	margin-top: 10px;
+	margin-right: 15px;
+}
+.footer-container{
+	width: 100%;
+	background-color: #e6e6e6;
+	height: 100px;
+}
+footer{
+	width: 1200px;
+	margin: 0px auto;
+	border-top: 1px solid #eee;
+
+}
+footer img{
+	margin-top: 45px;
+	float: left;
+	margin-right: 40px;
+
+}
+footer p{
+	float: left;
+	margin-top: 25px;
+	font-size: 12px;
+	line-height: 20px;
+	color: #a4a4a4;
+	margin-right: 150px;
+}
+footer p a{
+	color: #a4a4a4;	
+}
+footer p a:hover{
+	color: #cb0e16;	
+}
+footer ul li{
+	float: left;
+	width: 70px;
+	height: 24px;
+	margin-right: 5px;
+}
+footer ul li img{	
+	width: 100%;
+	height: 100%;
+}
